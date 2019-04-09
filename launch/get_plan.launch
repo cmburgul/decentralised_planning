@@ -1,0 +1,9 @@
+<launch>
+    
+    <node name="get_plan_server" pkg="decentralised_planning" type="get_plan_server" />
+
+    <node name="get_plan_client" pkg="decentralised_planning" type="get_plan_client" args="$(arg agent_id) $(arg x) $(arg y) $(arg yaw)"/>
+
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find decentralised_planning)/rviz/path_config_file.rviz" />
+
+</launch>
