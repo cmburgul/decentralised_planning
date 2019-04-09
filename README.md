@@ -1,6 +1,4 @@
-# decentralised_planning
-
-# CHINMAY_BURGUL_INTERN
+# Decentralised Planning of two agents in a grid using A-star Search Algorithm and Visualizing in Rviz
 
 Approach :  
 
